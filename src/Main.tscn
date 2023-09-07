@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://orspp5ouhoqu"]
+
+[ext_resource type="Theme" uid="uid://1yjlfkwekr4s" path="res://src/theme.tres" id="1_outs2"]
+[ext_resource type="Script" path="res://src/Main.cs" id="1_xn3pu"]
+
+[node name="Main" type="MarginContainer"]
+offset_right = 1920.0
+offset_bottom = 1080.0
+theme = ExtResource("1_outs2")
+script = ExtResource("1_xn3pu")
